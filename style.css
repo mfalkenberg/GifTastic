@@ -1,0 +1,30 @@
+body {
+	background-image: url("images/Sports.png");
+	font-family: 'Playfair Display', serif;
+}
+
+div.sport {
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+button.sport {
+	margin: 10px;
+	background: #a8adb5;
+	font-family: 'Playfair Display', serif;
+	padding: 10px;
+	font-weight: bold;
+}
+
+input#add-sport {
+	margin-top: 10px;
+	background: #a8adb5;
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	padding: 10px;
+}
+
+input#sport-input {
+	margin-top: 10px;
+}
