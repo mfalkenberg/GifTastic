@@ -1,6 +1,10 @@
 body {
-	background-image: url("images/Sports.png");
+	background-image: url("images/color.png");
 	font-family: 'Playfair Display', serif;
+}
+
+h1 {
+	text-align: center;
 }
 
 div.sport {
@@ -13,18 +17,37 @@ button.sport {
 	margin: 10px;
 	background: #a8adb5;
 	font-family: 'Playfair Display', serif;
-	padding: 10px;
-	font-weight: bold;
+	font-size: 15px;
+	font-weight: bold;	
+	height: 30px;
+	width: 100px;
+	border: 7px;
+	cursor: pointer;
+	border-radius: 4px;
 }
 
 input#add-sport {
 	margin-top: 10px;
 	background: #a8adb5;
 	font-family: 'Playfair Display', serif;
+	font-size: 15px;
 	font-weight: bold;
-	padding: 10px;
+	cursor: pointer;
+	width: 132px;
+	height: 30px;
+	border-radius: 4px;
 }
 
 input#sport-input {
 	margin-top: 10px;
+	height: 20px;
+}
+
+form#sport-form {
+	text-align: center;
+}
+
+img {
+	border-radius: 4px;
+	cursor: pointer;
 }
