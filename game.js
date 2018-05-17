@@ -1,4 +1,4 @@
-var topics = ["Germany", "Basketball", "USA", "Poland", "Soccer"];
+var topics = ["Baseball", "Basketball", "Biking", "Swimming", "Soccer"];
 
 function displaySport() {
 	var sport = $(this).attr("data-name");
